@@ -86,29 +86,29 @@ googleAnalytics = "UA-XXXXXXX-Y"
         imageUrl = "images/Healthcare.jpg"
         #https://github.com/ppatelcloud/some-images/blob/master/mask1.jpg"
         [[params.projects.sections.rows.items]]
-        title = "SEWING Volunteer Form"
+        title = "Sewing Volunteer Form"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
         url = "https://forms.gle/Kt4WDjFpiPib6TUe8"
-        image = "images/mask1.jpg"
+        imageUrl = "images/sew1.jpg"
         [[params.projects.sections.rows.items]]
-        title = "NON-SEWING Volunteer Form"
+        title = "Non-Sewing Volunteer Form"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
         url = "https://forms.gle/k9VwNZWnpwP331k69"
-        # image = "image.png"
+        imageUrl = "images/nonsew1.jpeg"
 
         [[params.projects.sections.rows]]
         # title = "Section 1, Row 2"
 
         [[params.projects.sections.rows.items]]
-        title = "SUPPLIES Donations Form"
+        title = "Supplies Donations Form"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
         url = "https://forms.gle/BJLH29f7yKfBzVru7"
-        # image = "image.png"
+        imageUrl = "images/supplies.jpg"
         [[params.projects.sections.rows.items]]
-        title = "GIFT CARDS Donations"
+        title = "Gift Cards Donations"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
         url = "https://forms.gle/ZVusGpwnENyS7fgv7"
-        # image = "image.png"
+        imageUrl = "images/giftcard.png"
 
 
         [[params.projects.sections]]
@@ -118,20 +118,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
         # title = "Section 2, Row 1"
 
         [[params.projects.sections.rows.items]]
-        title = "MASK PATTERNS (suggested)"
+        title = "Mask Patterns (suggested)"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
         url = "https://docs.google.com/document/d/1OwhzWQHFyNR1JiOviBKmWA57lOquFe63snaz0V7mY9I/edit?usp=sharing"
-        # image = "image.png"
+        imageUrl = "images/sew1.jpg"
         [[params.projects.sections.rows.items]]
-        title = "MASK PACK INSERT"
+        title = "Mask Pack Insert"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
         url = "https://docs.google.com/document/d/1cQzl3uwwMXu8fxfVxIHa8You9GKTmAuCJJQbrRRwdp0/edit?usp=sharing"
-        # image = "image.png"
+        imageUrl = "images/sew1.jpg"
         [[params.projects.sections.rows.items]]
-        title = "MASK SUPPLIES KIT"
+        title = "Mask Supplies Kit"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
         url = "https://docs.google.com/document/d/1zr1bhY6F1ZvUDjZblYOOVfd3ttk_jwJhEwvK6X8Kkmw/edit?usp=sharing"
-        # image = "image.png"
+        imageUrl = "images/sew1.jpg"
 
         [[params.projects.sections.rows]]
         # title = "Section 2, Row 2"
@@ -140,12 +140,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "NEWBEE GUIDE to B.A.C.M. MASKS"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
         url = "https://docs.google.com/document/d/1k62mI7dDZPUnrz-YzN6AnVQ4wFYxyBWdMUgc0k5Ap38/edit?usp=sharing"
-        # image = "image.png"
+        imageUrl = "images/sew1.jpg"
         [[params.projects.sections.rows.items]]
         title = "GUIDE to B.A.C.M. MASK STRAPS: Donors & Requestors"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
         url = "https://docs.google.com/document/d/1web2PK6M-igpCx_IeqZussJ1zL4Au8csZJaeuB24mUY/edit?usp=sharing"
-        # image = "image.png"
+        imageUrl = "images/sew1.jpg"
 
 
 
