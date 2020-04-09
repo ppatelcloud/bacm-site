@@ -1,0 +1,158 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "Bay Area Cotton Masks"
+theme = "hugo-business-frontpage-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Priyanka Patel"
+    description = "Business Frontpage - A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header"
+
+
+
+
+
+
+    [params.navbar]
+        name = "Bay Area Cotton Masks"
+        url = "#"
+
+        [[params.navbar.nav]]
+        current = true
+        name = "Home"
+        url = "#"
+        [[params.navbar.nav]]
+        name = "About"
+        url = "#"
+        [[params.navbar.nav]]
+        name = "Services"
+        url = "#"
+        [[params.navbar.nav]]
+        name = "Contact"
+        url = "#"
+
+
+
+
+
+
+    [params.header]
+        #name = "Bay Area Cotton Masks"
+        tagline = "A group of awesome Bay Area people who want to help with sewing cotton masks and the related to mask-making activities to support our medics and others in need in the times of COVID-19 pandemic."
+
+
+    [params.summary]
+        url = "#"
+
+        [params.summary.description]
+
+        [[params.summary.description.items]]
+        description = "We care about our healthcare professionals.We want to help with what we can. We make cotton masks!"
+        [[params.summary.description.items]]
+        description = "We beat covid19 in exponential growth category: we have jump-started from 5 to 250+ in three days of March 2020 and growing. No profit, No money. 100% genuine volunteer."
+
+
+        [params.summary.contact]
+        name = "B.A.C.M Admins"
+        #address1 = "3481 Melrose Place"
+        #address2 = "Beverly Hills, CA 90210"
+        phone = "415.857.4397"
+        email = "Info@SFBACM.org"
+
+
+
+
+
+
+    [params.projects]
+
+        [[params.projects.sections]]
+        # title = "Section 1"
+
+        [[params.projects.sections.rows]]
+        # title = "Section 1, Row 1"
+
+        [[params.projects.sections.rows.items]]
+        title = "HealthCare Provider Mask Request Form"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "https://forms.gle/yDYPUczZP7piiyVE6"
+        imageUrl = "images/Healthcare.jpg"
+        #https://github.com/ppatelcloud/some-images/blob/master/mask1.jpg"
+        [[params.projects.sections.rows.items]]
+        title = "SEWING Volunteer Form"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        url = "https://forms.gle/Kt4WDjFpiPib6TUe8"
+        image = "images/mask1.jpg"
+        [[params.projects.sections.rows.items]]
+        title = "NON-SEWING Volunteer Form"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
+        url = "https://forms.gle/k9VwNZWnpwP331k69"
+        # image = "image.png"
+
+        [[params.projects.sections.rows]]
+        # title = "Section 1, Row 2"
+
+        [[params.projects.sections.rows.items]]
+        title = "SUPPLIES Donations Form"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "https://forms.gle/BJLH29f7yKfBzVru7"
+        # image = "image.png"
+        [[params.projects.sections.rows.items]]
+        title = "GIFT CARDS Donations"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        url = "https://forms.gle/ZVusGpwnENyS7fgv7"
+        # image = "image.png"
+
+
+        [[params.projects.sections]]
+        # title = "Section 2"
+
+        [[params.projects.sections.rows]]
+        # title = "Section 2, Row 1"
+
+        [[params.projects.sections.rows.items]]
+        title = "MASK PATTERNS (suggested)"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "https://docs.google.com/document/d/1OwhzWQHFyNR1JiOviBKmWA57lOquFe63snaz0V7mY9I/edit?usp=sharing"
+        # image = "image.png"
+        [[params.projects.sections.rows.items]]
+        title = "MASK PACK INSERT"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        url = "https://docs.google.com/document/d/1cQzl3uwwMXu8fxfVxIHa8You9GKTmAuCJJQbrRRwdp0/edit?usp=sharing"
+        # image = "image.png"
+        [[params.projects.sections.rows.items]]
+        title = "MASK SUPPLIES KIT"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
+        url = "https://docs.google.com/document/d/1zr1bhY6F1ZvUDjZblYOOVfd3ttk_jwJhEwvK6X8Kkmw/edit?usp=sharing"
+        # image = "image.png"
+
+        [[params.projects.sections.rows]]
+        # title = "Section 2, Row 2"
+
+        [[params.projects.sections.rows.items]]
+        title = "NEWBEE GUIDE to B.A.C.M. MASKS"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "https://docs.google.com/document/d/1k62mI7dDZPUnrz-YzN6AnVQ4wFYxyBWdMUgc0k5Ap38/edit?usp=sharing"
+        # image = "image.png"
+        [[params.projects.sections.rows.items]]
+        title = "GUIDE to B.A.C.M. MASK STRAPS: Donors & Requestors"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "https://docs.google.com/document/d/1web2PK6M-igpCx_IeqZussJ1zL4Au8csZJaeuB24mUY/edit?usp=sharing"
+        # image = "image.png"
+
+
+
+
+
+    [params.footer]
+        copyright = "Bay Area Cotton Masks"
+
+
+
