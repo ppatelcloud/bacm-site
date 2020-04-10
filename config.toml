@@ -24,19 +24,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "Bay Area Cotton Masks"
         url = "#"
 
-        [[params.navbar.nav]]
-        current = true
-        name = "Home"
-        url = "#"
-        [[params.navbar.nav]]
-        name = "About"
-        url = "#"
-        [[params.navbar.nav]]
-        name = "Services"
-        url = "#"
-        [[params.navbar.nav]]
-        name = "Contact"
-        url = "#"
+ 
+
 
 
 
@@ -54,9 +43,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [params.summary.description]
 
         [[params.summary.description.items]]
-        description = "We care about our healthcare professionals.We want to help with what we can. We make cotton masks!"
+        description = "We care about our healthcare professionals."
         [[params.summary.description.items]]
-        description = "We beat covid19 in exponential growth category: we have jump-started from 5 to 250+ in three days of March 2020 and growing. No profit, No money. 100% genuine volunteer."
+        description = "We want to help with what we can. We make cotton masks!"
+        [[params.summary.description.items]]
+        description = "We beat covid19 in exponential growth category (jump-started from 5 to 250+ in 3 days of March 2020 and growing."
+        [[params.summary.description.items]]
+        description = "No profit, No money. 100% genuine volunteers."
 
 
         [params.summary.contact]
@@ -111,48 +104,26 @@ googleAnalytics = "UA-XXXXXXX-Y"
         imageUrl = "images/giftcard.png"
 
 
-        [[params.projects.sections]]
-        # title = "Section 2"
-
-        [[params.projects.sections.rows]]
-        # title = "Section 2, Row 1"
-
-        [[params.projects.sections.rows.items]]
-        title = "Mask Patterns (suggested)"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
-        url = "https://docs.google.com/document/d/1OwhzWQHFyNR1JiOviBKmWA57lOquFe63snaz0V7mY9I/edit?usp=sharing"
-        imageUrl = "images/sew1.jpg"
-        [[params.projects.sections.rows.items]]
-        title = "Mask Pack Insert"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
-        url = "https://docs.google.com/document/d/1cQzl3uwwMXu8fxfVxIHa8You9GKTmAuCJJQbrRRwdp0/edit?usp=sharing"
-        imageUrl = "images/sew1.jpg"
-        [[params.projects.sections.rows.items]]
-        title = "Mask Supplies Kit"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
-        url = "https://docs.google.com/document/d/1zr1bhY6F1ZvUDjZblYOOVfd3ttk_jwJhEwvK6X8Kkmw/edit?usp=sharing"
-        imageUrl = "images/sew1.jpg"
-
-        [[params.projects.sections.rows]]
-        # title = "Section 2, Row 2"
-
-        [[params.projects.sections.rows.items]]
-        title = "NEWBEE GUIDE to B.A.C.M. MASKS"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
-        url = "https://docs.google.com/document/d/1k62mI7dDZPUnrz-YzN6AnVQ4wFYxyBWdMUgc0k5Ap38/edit?usp=sharing"
-        imageUrl = "images/sew1.jpg"
-        [[params.projects.sections.rows.items]]
-        title = "GUIDE to B.A.C.M. MASK STRAPS: Donors & Requestors"
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
-        url = "https://docs.google.com/document/d/1web2PK6M-igpCx_IeqZussJ1zL4Au8csZJaeuB24mUY/edit?usp=sharing"
-        imageUrl = "images/sew1.jpg"
 
 
+[[menu.icon]]
+    url = "https://www.linkedin.com/company/SFBACM"
+    name = "linkedin"
+    weight = 1
 
+[[menu.icon]]
+    url = "https://www.facebook.com/groups/SFBACM"
+    name = "facebook"
+    weight = 2
+
+[[menu.icon]]
+    url = "mailto:info@SFBACM.org"
+    name = "envelope-o"
+    weight = 3
 
 
     [params.footer]
-        copyright = "Bay Area Cotton Masks"
+        copyright = "Copyright © 2020; all rights reserved."
 
 
 
